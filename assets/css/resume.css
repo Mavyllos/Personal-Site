@@ -19,7 +19,11 @@ body {
 }
 
 
-/* #inner { padding: 10px 80px; margin: 10px auto; background: #fff; } */
+/* #inner { 
+    padding: 10px 80px; 
+    margin: 10px auto; 
+    background: #fff; 
+} */
 
 .yui-gf {
     margin-bottom: 1em;
@@ -51,14 +55,16 @@ body {
 
 #ft {
     padding: 1em 0 5em 0;
+    padding-left: 18em;
     font-size: 92%;
     border-top: 1px solid #ccc;
-    text-align: center;
+    /* text-align: center; */
 }
 
 #ft p {
     margin-bottom: 0;
-    text-align: center;
+    padding-bottom: 0;
+    /* text-align: center; */
 }
 
 
@@ -166,9 +172,12 @@ a#pdf:hover {
 }
 
 .job {
-    position: relative;
+    /* position: relative;
     margin-bottom: 1em;
     padding-bottom: 1em;
+    border-bottom: 1px solid #ccc; */
+
+    position: relative;
     border-bottom: 1px solid #ccc;
 }
 
@@ -178,13 +187,24 @@ a#pdf:hover {
     right: 0
 }
 
-.job p {
-    margin: 0.75em 0 3em 0;
+.date {
+    top: 1.55em !important;
+    padding-right: .15em;
 }
 
-.edu {
-    page-break-before: always;
+.job p {
+    margin: 0 0 .5em 0;
+}
+
+/* .edu {
+    page-break-after: always;
     padding-top: 20px;
+} */
+
+.continue {
+    padding-top: 4em;
+    float: right;
+    margin-right: 0;
 }
 
 .last {
@@ -214,6 +234,11 @@ a#pdf:hover {
     float: left
 }
 
+.skill {
+    width: 33%;
+    float: left
+}
+
 .talent h2 {
     margin-bottom: 6px;
 }
@@ -225,6 +250,11 @@ a#pdf:hover {
 
 #srt-ttab img.last {
     margin-top: 20px
+}
+
+
+.sr {
+    padding-top: 1em;
 }
 
 
