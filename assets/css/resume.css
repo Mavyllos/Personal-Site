@@ -43,6 +43,7 @@ body {
 #hd h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
+    padding-top: .7em;
 }
 
 #bd,
